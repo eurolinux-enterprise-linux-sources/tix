@@ -8,7 +8,7 @@ Summary: A set of extension widgets for Tk
 Name: tix
 Epoch: 1
 Version: %{tixmajor}.3
-Release: 10%{?dist}
+Release: 12%{?dist}
 License: BSD
 Group: Development/Languages
 URL: http://tix.sourceforge.net/
@@ -125,6 +125,12 @@ rm -f $RPM_BUILD_ROOT%{_libdir}/Tix%{tixmajor}/license.terms
 %doc %{tcl_sitelib}/Tix%{tixmajor}
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1:8.4.3-12
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:8.4.3-11
+- Mass rebuild 2013-12-27
+
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1:8.4.3-10
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
